@@ -685,6 +685,7 @@ config SMBIOS_PARSER
 source lib/efi/Kconfig
 source lib/efi_loader/Kconfig
 source lib/optee/Kconfig
+source lib/lvgl/Kconfig
 
 config TEST_FDTDEC
 	bool "enable fdtdec test"
